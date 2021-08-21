@@ -1,0 +1,24 @@
+{
+  "name": "examplenodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "author": "tris",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "^2.15.19",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/mysql2": "github:types/mysql2"
+  }
+}
